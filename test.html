@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    #navi li{
+        float: left;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    #navi li a{
+        display: block;
+    }
+    #navi li:hover{
+        border-bottom: 5px solid yellow;
+    }
+    .dropNavi{
+        position: absolute;
+        left:-999px;
+    }
+    #navi ul li a:hover + .dropNavi {
+        left:0px;
+    }
+    img {
+       clip-path: inset(200px 330px);
+    }
+</style>
+
+
+</head>
+
+<body>
+    <nav id="navi">
+        <ul>
+            <li><a href="#">aaa</a></li>
+            <li><a href="#">bbb</a>
+                <ul class="dropNavi">
+                    <li><a href="#">eee</a></li>
+                    <li><a href="#">fff</a></li>
+                    <li><a href="#">ggg</a></li>
+                    <li><a href="#">hhh</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ccc</a></li>
+            <li><a href="#">ddd</a></li>
+        </ul>
+    </nav>
+
+    <img src="./images/MDRZ7M2-800x600.jpg" alt="" id="item">
+    <script type="text/javascript" src="./js/dropdown.js"></script>
+</body>
+
+</html>

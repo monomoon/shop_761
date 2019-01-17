@@ -1,0 +1,208 @@
+/* 전체 */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    position: absolute;
+    left: -99999px;
+}
+
+.darkBg {
+    background: #23232d;    
+}
+
+img[src *="icon"] {
+    width: 48px;
+    height: 48px;
+}
+
+#setposition {
+    padding-top: 110px;
+}
+
+/* header*/
+#headerWrap {
+    width: 100%;
+    height: 90px;
+    margin: 0px auto;
+    background: white;
+    position: fixed;
+    z-index: 1;
+}
+
+#header {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+}
+
+#navi {
+    float: left;
+    margin: 55px 0 0 100px;
+    
+}
+
+#navi ul li {
+    float: left;
+    padding-left: 80px;
+    
+    
+}
+#navi ul li a{
+    display: block;
+    
+    }
+
+#navi ul li a:hover {
+    border-bottom: 6px solid #e2c415;
+}
+
+.dropNavi {
+    position: absolute;
+    left:-1500px;
+    background: #e2c415;
+    padding: 12px 12px 12px 480px;
+    height: 75px;
+    
+}
+#navi ul li:hover .dropNavi{
+    left:0px;
+    transition-duration: 180ms;
+}
+
+#search {
+    float: left;
+    margin: 55px 0 0 100px;
+}
+
+#searchbar {
+    all: unset;
+    background: #F0F0F0;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 3px;
+    text-indent: 1em;
+    
+    }
+
+::placeholder{
+    color: #888888;
+    
+}
+
+#search button img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 40px;
+}
+
+#search_btn {
+    all: unset;
+    background: url(../images/icon/search_gray.png) no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    position: relative;
+    right: 40px;
+}
+
+#loginNavi {
+    float: right;
+    margin: 55px 0 0 0;
+}
+
+#loginNavi ul li {
+    float: left;
+    
+}
+#loginNavi li:nth-child(2){
+    position: relative;
+    bottom: 20px;
+}
+#loginNavi a{
+ display: bolck;
+ padding: 5px;
+}
+
+#productNavi ul {
+    display: inline-block;
+}
+
+#productNavi ul li {
+    display: inline-block;
+}
+
+/* footer */
+
+#footer {
+    width: 100%;
+    margin: 0px auto;
+    background: white;
+    height: 305px;
+    position: relative;
+    
+    
+}
+
+
+
+.footerPosition {
+    
+    margin:auto;
+    width: 1170px;
+    height: 267px;
+    font-size: 11px;
+    color: #888888;
+}
+
+.footerPosition h3 {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.footerPosition h3{
+    margin-bottom: 10px;
+}
+#footerPolicy a{
+    color: #888888;
+}
+#footerSns a{
+    padding-left: 10px;
+
+}
+#footerInfo,
+#footerContact,
+#footerPolicy,
+#footerSns {
+    float: left;
+    padding: 80px 110px 0 0;
+    }
+
+#copyright {
+    background: #23232d;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+
+}

@@ -1,0 +1,145 @@
+#section {
+    widows: 1440px;
+    height: 3000px;
+    padding-top: 220px;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+#product_top_page {
+    margin: 0 auto;
+    width: 1980px;
+
+}
+
+#mainImg {
+    float: left;
+    background: #263238;
+    width: 960px;
+    height: 795px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#subImg {
+
+    float: left;
+    background: #263238;
+    width: 480px;
+    height: 795px;
+    border: 1px solid black;
+
+}
+
+#subImg ul {
+    padding: 60px 0 0 5px;
+}
+
+#subImg a {
+    display: block;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+}
+
+#subImg li img {
+    height: 200px;
+    min-width: 100%;
+    min-height: 100%;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+#subImg ul li {
+    float: left;
+}
+
+/*주문창 order*/
+#orderPage {
+    float: left;
+    width: 480px;
+    height: 795px;
+    background: white;
+    padding: 0 20px;
+}
+
+#orderPage h2 {
+    margin: 30px 0;
+}
+
+.like_count {
+    color: red;
+    float: right;
+}
+
+.like_count img {
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+
+}
+
+#order_form h3 {
+    margin: 20px 0;
+}
+
+.total_price {
+    font-size: 40px;
+    position: relative;
+    left: 305px;
+}
+
+/*라디오 체크박스 안보이게*/
+.option_value_input {
+    display: none; 
+}
+
+.option_value_name {
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    padding: 7.5px 10px;
+    margin: 0 0 10px 5px;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.option_value_input:checked+.option_value_name {
+    background: #e2c415;
+    color: #263238;
+    font-weight: bolder;
+}
+.option_value_qty{
+    
+    border: 1px solid #263238;
+    width: 120px;
+    height: 50px;
+    margin: 100px 20px;
+    
+}
+.option_value_order{
+    all: unset;
+    width: 300px;
+    height: 50px;
+    background: #f0f0f0;
+    text-align: center;
+    
+}
+/* product detail */
+#overview_bar ul {
+    overflow: hidden;
+}
+
+#overview_bar ul li {
+    border-right: 1px solid black;
+}
+
+#overview_bar ul li a {
+    display: block;
+    padding: 10px;
+}
+

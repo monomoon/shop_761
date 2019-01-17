@@ -1,0 +1,217 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>#761</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+    <div id="headerWrap">
+        <header id="header">
+            <h1 id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></h1>
+            <nav id="navi">
+                <h2 class="hidden">헤더메뉴</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Product</a>
+                        <ul class="dropNavi">
+                            <li><a href="#"><img src="./images/icon/writing_icon.png" alt="">
+                                    <p>Writing</p>
+                                </a></li>
+                            <li><a href="#"><img src="./images/icon/diy_icon.png" alt="">
+                                    <p>Craft</p>
+                                </a></li>
+                            <li><a href="#"><img src="./images/icon/hobby_icon.png" alt="">
+                                    <p>Hobby</p>
+                                </a></li>
+                            <li><a href="#"><img src="./images/icon/edc_icon.png" alt="">
+                                    <p>E.D.C</p>
+                                </a></li>
+                            <li><a href="#"><img src="./images/icon/tech_icon.png" alt="">
+                                    <p>Technology</p>
+                                </a></li>
+                            <li><a href="#"><img src="./images/icon/camping_icon.png" alt="">
+                                    <p>Camping</p>
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+            <div id="search">
+                <form action="http://localhost.php" method="post">
+                    <input type="text" id="searchbar" name="search" placeholder="Search...">
+                    <input type="submit" id="search_btn" name="searchbutton" value="">
+                </form>
+            </div>
+            <nav id="loginNavi">
+                <h2 class="hidden">loginM</h2>
+                <ul>
+                    <li><a href="#">User name</a></li>
+                    <li><a href="#"><img src="./images/icon/user.png" alt="userimg"></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section id="section">
+        <div id="product_top_page">
+            <div id="mainImg">
+                <img src="./images/Kira-Wide.jpg" alt="">
+            </div>
+            <div id="orderPage">
+                <h2>키라 기계식 키보드 <span>KIRA Mechnical Keyboard</span></h2>
+                by Kono Store
+                <p class="like_count">253 <img src="./images/icon/like.png" alt="like_heart">5d 14h left</p>
+                <p class="total_price">215,000원</p>
+                <div id="order_form">
+                    <form action="http://localhost.php" method="post">
+                        <h3>Switch</h3>
+                        <div class="option_value">
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Hako Clear">
+                                <span class="option_value_name">Hako Clear</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Hako True">
+                                <span class="option_value_name">Hako True</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Hako Violet">
+                                <span class="option_value_name">Hako Violet</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Novelkeys Box Royal">
+                                <span class="option_value_name">Novelkeys Box Royal</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Novelkeys Box Pale Blue">
+                                <span class="option_value_name">Novelkeys Box Pale Blue</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Cherry MX Blue">
+                                <span class="option_value_name">Cherry MX Blue</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Cherry MX Brown">
+                                <span class="option_value_name">Cherry MX Brown</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="Kailhua Box Red">
+                                <span class="option_value_name">Kailhua Box Red</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input  class="option_value_input" type="radio" name="Switch" value="Kailhua Speed Copper">
+                                <span class="option_value_name" class="sold_out" >Kailhua Speed Copper</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Switch" value="None / Kit">
+                                <span class="option_value_name">None / Kit</span>
+                            </label>
+                        </div>
+                        
+                        <h3>Frame Color</h3>
+                            <div class="option_value">
+                                <label class="option_value_label">
+                                    <input class="option_value_input" type="radio" name="Frame_color" value="silver">
+                                    <span class="option_value_name">Silver</span>
+                                </label>
+                                <label class="option_value_label">
+                                    <input class="option_value_input" type="radio" name="Frame_color" value="black">
+                                    <span class="option_value_name">Black</span>
+                                </label>
+                            </div>
+                                           
+                        <h3>Frame Material</h3>
+                        <div class="option_value">
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Frame_material" value="standard">
+                                <span class="option_value_name">Standard</span>
+                            </label>
+                            <label class="option_value_label">
+                                <input class="option_value_input" type="radio" name="Frame_material" value="metal">
+                                <span class="option_value_name">Metal</span>
+                            </label>
+                        </div>
+                        <div class="option_value_qty_order">
+                            <select class="option_value_qty" name="option_qty" value="Quntity" aria-label="quntity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10+">10+</option>
+                            </select>
+                            <input class="option_value_order" type="submit" value="Add to Cart">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="subImg">
+                <ul>
+                    <li><a href="#"><img src="./images/Kira-Black-min.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="./images/Kira-Final-Set.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/Kira-Kono.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/Kira-Kickstarter-Rev2.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/Kira_Mechanical_Keyboard-min.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/96Key_1965_02_grande.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <section id="product_content">
+            <div id="overview">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Specs</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="#">Q&A</a></li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <footer id="footer">
+        <div class="footer_W_bg">
+            <div class="footerPosition">
+                <div id="footerInfo">
+                    <h3>INFO</h3>
+                    <p>Business hours AM 11:00 ~ PM 18:00</p>
+                    <p>Company : #761 KOREA</p>
+                    <p>CEO : Kim Ki Hong</p>
+                    <p>대구광역시 남구 명덕로 434-1</p>
+                </div>
+
+                <div id="footerContact">
+                    <h3>CONTACT</h3>
+                    <p>Custom Center : 1588-1001</p>
+                    <p>Fax : 053-4233-1254</p>
+
+                </div>
+                <div id="footerPolicy">
+                    <h3>POLICY</h3>
+                    <ul>
+                        <li><a href="#">개인정보취급방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                </div>
+                <div id="footerSns">
+                    <h3>SOCIAL MEDIA</h3>
+                    <a href="#"><img src="./images/icon/sns_logo/png/google-plus.png" alt=""></a>
+                    <a href="#"><img src="./images/icon/sns_logo/png/instagram.png" alt=""></a>
+                    <a href="#"><img src="./images/icon/sns_logo/png/facebook.png" alt=""></a>
+                    <a href="#"><img src="./images/icon/sns_logo/png/twitter.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="darkBg " id="copyright">ⓒ 2018 #761 KOREA. ALL RIGHTS RESERVED</div>
+    </footer>
+</body>
+
+</html>
